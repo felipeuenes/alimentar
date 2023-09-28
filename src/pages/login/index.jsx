@@ -28,12 +28,15 @@ export function Home() {
                                 <label htmlFor="senha">Senha:</label>
                                 <input type="text" id='senha'/>
                             </section>
-                            <section>
+                            <section className='botao'>
                                 <button>Entrar</button>
                             </section>
-                            <section>
-                                <input type="checkbox" />
-                                <a href="">
+                            <section className='help'>
+                                <section>
+                                     <input type="checkbox" id='relembrar'/> 
+                                     <label htmlFor="relembrar">Relembrar</label>
+                                </section>
+                                <a href=""> 
                                     <p>Esqueceu a senha?</p>
                                     </a>
                             </section>
