@@ -1,0 +1,63 @@
+.home-fundo-geral{
+    background-color: #6696CF;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-box{
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    height: 90vh;
+    margin: 4.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    height: 100%;
+    width: 45vw;
+    background-color: #FBE721;
+    padding-top: 5.0rem;
+}
+
+.logoAlimentar, .logoGoverno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoAlimentar img{
+    width: 40.0rem;
+}
+
+.logoGoverno{
+    padding-top: 2.4rem;
+}
+
+.logoGoverno img{
+    width: 35.0rem;
+}
+
+.form{
+    height: 100%;
+    width: 50vw;
+    background-color: white;
+}
+
+
+.login{
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.inputs{
+
+    display: flex;
+   
+    flex-direction: column;
+    width: 30.0rem;
+}
