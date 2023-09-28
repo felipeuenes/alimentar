@@ -3,7 +3,7 @@ import logomarca from '../../assets/logomarca.png';
 import logoGoverno from '../../assets/cearasemfomelogo.png'
 
 
-export function Home() {
+export function Login() {
 
 
     return(
