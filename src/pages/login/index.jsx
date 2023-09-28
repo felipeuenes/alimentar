@@ -1,6 +1,7 @@
 import './style.css'
 import logomarca from '../../assets/logomarca.png';
 import logoGoverno from '../../assets/cearasemfomelogo.png'
+import { Link } from 'react-router-dom';
 
 
 export function Login() {
@@ -29,7 +30,9 @@ export function Login() {
                                 <input type="text" id='senha'/>
                             </section>
                             <section className='botao'>
-                                <button>Entrar</button>
+                                <Link to={'/'}>
+                                 <button>Entrar</button>
+                                </Link>
                             </section>
                             <section className='help'>
                                 <section>

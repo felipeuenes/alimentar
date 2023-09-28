@@ -1,0 +1,36 @@
+.cabecalho{
+    width: 100vw;
+    height: 9.0rem;
+    background-color: #9CCD5D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;    
+
+}
+
+.menu img{
+    width: 7.0rem;
+    margin-left: 2.6rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 4.0rem;
+}
+
+.configs{
+
+    display: flex;
+    gap: 2.4rem;
+    margin-right: 2.6rem;
+}
+.configs img{
+    width: 2.4rem;
+    
+}
