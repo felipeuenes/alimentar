@@ -64,13 +64,17 @@
 
 
 #editar{
-    width: 2.2rem;
+    width: 1.6rem;
     cursor: pointer;
     
 }
 #lixeira{
-    width: 2.0rem;
+    width: 1.4rem;
     cursor: pointer;
+}
 
-    
+.linha1{
+    background-color: #CFE2F7;
+   
+    height: 4.0rem;
 }

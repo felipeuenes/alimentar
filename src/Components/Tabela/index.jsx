@@ -37,7 +37,7 @@ export function Tabela() {
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr className='linha1'>
             <th scope="row">001</th>
             <td>Unidade 1</td>
             <td>00.000.000/0001-01</td>
@@ -52,11 +52,13 @@ export function Tabela() {
             <td>Responsável 2</td>
             <td></td>
             </tr>
-            <tr>
+            <tr className='linha1'>
             <th scope="row">003</th>
             <td colspan="1">Unidade 3</td>
             <td colspan="1">0000000000</td>
             <td>Responsável 3</td>
+            <td></td>
+            <td id='icons'><img src={editar} alt="" id='editar' /><img src={lixeira} alt="" id='lixeira'/></td>
             </tr>
         </tbody>
         </table>
