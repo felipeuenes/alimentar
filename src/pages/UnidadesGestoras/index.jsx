@@ -2,6 +2,8 @@ import { Header } from '../../Components/Header'
 import './style.css'
 import logoGoverno from '../../assets/cearasemfomelogo.png';
 import { Tabela } from '../../Components/Tabela';
+import { Tabs } from 'antd';
+const { TabPane } = Tabs;
 
 
 export function UnidadesGestoras() {
@@ -22,9 +24,17 @@ export function UnidadesGestoras() {
                     </section>
                 </section>
                 <hr />
-                <section>
-               
-                <Tabela/>
+                <section className='tabs'>
+                <Tabs defaultActiveKey="1" onChange={(key) => console.log(key)}>
+                    <TabPane tab="Listagem" key="1">
+                    <Tabela/>
+                    
+                    </TabPane>
+                    <TabPane tab="Detalhamento" key="2">
+                    Conteúdo da segunda aba
+                    </TabPane>
+                   
+                </Tabs>
 
 
                 </section>
