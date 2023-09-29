@@ -1,6 +1,9 @@
 import './style.css';
 import iconFiltro from '../../assets/filtro.png'
 import barra from '../../assets/barra.png'
+import editar from '../../assets/editar.png'
+import lixeira from '../../assets/lixeira.png'
+
 
 export function Tabela() {
 
@@ -19,6 +22,7 @@ export function Tabela() {
                 <button id='pdf'>Gerar PDF</button>
             </section>
             </div>
+            <hr />
         <div className='tabela'>
 
         <table class="table table-sm">
@@ -39,6 +43,7 @@ export function Tabela() {
             <td>00.000.000/0001-01</td>
             <td>Reponsável 1</td>
             <td>(00) 00000-0000</td>
+            <td id='icons'><img src={editar} alt="" id='editar' /><img src={lixeira} alt="" id='lixeira'/></td>
             </tr>
             <tr>
             <th scope="row">002</th>
