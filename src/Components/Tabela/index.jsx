@@ -1,11 +1,24 @@
 import './style.css';
-
-
+import iconFiltro from '../../assets/filtro.png'
+import barra from '../../assets/barra.png'
 
 export function Tabela() {
 
 
     return(
+        <div className='containerTabela'>
+            <div className='cabecalhoTabela'>
+
+            <section>
+                <h3>Listagem de entidades</h3>
+            </section>
+            <section>
+                <img src={iconFiltro} alt="filtroIcon" />
+                <img src={barra} alt="" id='barra'/>
+                <button id='add'>Adicionar Unidade</button>
+                <button id='pdf'>Gerar PDF</button>
+            </section>
+            </div>
         <div className='tabela'>
 
         <table class="table table-sm">
@@ -42,6 +55,7 @@ export function Tabela() {
             </tr>
         </tbody>
         </table>
+        </div>
         </div>
     )
 }
