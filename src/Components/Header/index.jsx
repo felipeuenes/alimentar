@@ -3,6 +3,7 @@ import logomarca from '../../assets/logomarca-menor.png'
 import iconInfo from '../../assets/icon-info.png'
 import iconConfig from '../../assets/icon-config.png'
 import iconPerfil from '../../assets/icon-perfil.png'
+import { Link } from 'react-router-dom';
 
 
 export function Header(){
@@ -11,9 +12,9 @@ export function Header(){
     return(
         <div className='cabecalho'>
             <section className='menu'>
-                <img src={logomarca} alt="logomarca" />
+             <Link to={'/'}> <img src={logomarca} alt="logomarca" /></Link>  
                 <ul>
-                    <li>Cadastro</li>
+                 <li><Link to='/unidadesGestoras'>Cadastro</Link></li>
                     <li>Lançamentos</li>
                     <li>Relatórios</li>
                 </ul>

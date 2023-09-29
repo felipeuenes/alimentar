@@ -2,4 +2,31 @@
     background-color: #6696CF;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+}
+
+.boxUnidadesGestoras{
+    margin-top: 18.5rem;
+   
+    height: 85vh;
+    width: 90vw;
+    background-color: white;
+     
+}
+
+.cabecalhoUnidades{
+    width: 100%;
+    padding: 4.0rem;
+    height: 6.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logomarcas img{
+    width: 30.0rem;
 }
