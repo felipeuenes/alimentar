@@ -1,6 +1,7 @@
 import { Header } from '../../Components/Header'
 import './style.css'
 import logoGoverno from '../../assets/cearasemfomelogo.png';
+import { Tabela } from '../../Components/Tabela';
 
 
 export function UnidadesGestoras() {
@@ -23,7 +24,7 @@ export function UnidadesGestoras() {
                 <hr />
                 <section>
                
-
+                <Tabela/>
 
 
                 </section>
