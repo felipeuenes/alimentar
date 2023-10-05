@@ -1,13 +1,16 @@
 .CadUnidadesGestoras{
     background-color: #6696CF;
+    background-size: contain;
     width: 100vw;
     height: 100%;
+    position: absolute;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
     background-size: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     /* overflow: hidden;   */
 }
 

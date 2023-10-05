@@ -77,7 +77,7 @@ export function Formulario() {
                     <input type="text" id='contato'/>
                 </section>
                 <section>
-                    <label htmlFor="telco">Telefone - Contato</label>
+                    <label htmlFor="telco">Telefone - Contato:</label>
                     <input type="text" id='telco'/>
                 </section>
             </div>
