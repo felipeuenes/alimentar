@@ -19,3 +19,43 @@
     border: none;
     cursor: pointer;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario section{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario section input{
+    width: 50.0rem;
+}
+
+#linha1{
+   
+    padding: 2.6rem;
+    width: 100%;
+}
+#razao{
+    width: 100%;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+.linha2 section{
+    width: 100%;
+    padding: 2.6rem;
+}
+
+.linha2 section input{
+    width: 100%;
+}
