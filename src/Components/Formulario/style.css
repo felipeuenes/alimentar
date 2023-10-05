@@ -20,9 +20,12 @@
     cursor: pointer;
 }
 
+
 .formulario{
     display: flex;
     flex-direction: column;
+    padding: 2.4rem;
+    margin: 0;
     
 }
 
@@ -36,26 +39,30 @@
 }
 
 #linha1{
-   
-    padding: 2.6rem;
     width: 100%;
 }
-#razao{
+#razao , #end{
     width: 100%;
 }
 
-.linha2{
+
+
+.linha{
     display: flex;
     flex-direction: row;
     gap: 1.6rem;
     width: 100%;
 }
 
-.linha2 section{
+.linha section{
     width: 100%;
-    padding: 2.6rem;
+    
 }
 
-.linha2 section input{
+.linha section input{
     width: 100%;
+}
+
+select{
+    height: 3.0rem;
 }
