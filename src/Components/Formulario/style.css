@@ -66,3 +66,25 @@
 select{
     height: 3.0rem;
 }
+
+.buttonSave{
+    width: 100%;
+    margin-top: 2.0rem;
+    display: flex;
+    justify-content: end;
+}
+
+.buttonSave button{
+    width: 20.0rem;
+    background-color: #9CCD5D;
+    border: none;
+    border-radius: .5rem;
+    height: 3.0rem;
+    color: white;
+    cursor: pointer;
+    
+}
+
+label{
+    font-weight: 700;
+}

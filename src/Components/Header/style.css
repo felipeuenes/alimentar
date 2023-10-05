@@ -6,12 +6,13 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 5;
 }
 .menu{
     display: flex;
     align-items: center;
     gap: 2.4rem;    
-
+    
 }
 
 .menu img{

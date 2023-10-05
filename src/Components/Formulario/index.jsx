@@ -61,6 +61,29 @@ export function Formulario() {
                     </select>
                 </section>
             </div>
+            <div className='linha'>
+                    <section>
+                        <label htmlFor="cep">CEP:</label>
+                        <input type="text" id='cep'/>
+                    </section>
+                    <section>
+                        <label htmlFor="comp">Complemento:</label>
+                        <input type="text" id='comp'/>
+                    </section>
+            </div>
+            <div className='linha'>
+                <section>
+                    <label htmlFor="contato">Contato:</label>
+                    <input type="text" id='contato'/>
+                </section>
+                <section>
+                    <label htmlFor="telco">Telefone - Contato</label>
+                    <input type="text" id='telco'/>
+                </section>
+            </div>
+            <div className='buttonSave'>
+                    <button>Salvar</button>
+            </div>
             </div>
 
         </div>
