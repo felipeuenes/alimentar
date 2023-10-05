@@ -18,7 +18,7 @@ export function Login() {
                 <section className='form'>
                     
                     <section className='login'><h1>LOGIN</h1></section>
-            <hr></hr>
+                         <hr></hr>
                     <section className='formulario'>
                         <form action="">
                             <section className='inputs'>

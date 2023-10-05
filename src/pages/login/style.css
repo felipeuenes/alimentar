@@ -19,6 +19,7 @@
     justify-content: center;
    
 }
+ 
 
 .logos{
     height: 100%;
@@ -107,3 +108,83 @@
 
 
     
+@media screen and (max-width: 700px) {
+    .home-box{
+        flex-direction: column;
+        width: 100vw;
+        margin: 1.5rem;
+    }
+    .logoAlimentar img{
+        width: 15.0rem;
+    }
+    .logos{
+        height: 100%;
+        width: 100%;
+        background-color: #FBE721;
+        /* padding-top: 5.0rem; */
+        /* margin-top: 14.0rem; */
+        border-radius: 1.0rem;
+    }
+    .logoGoverno{
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+    }
+    
+    .logoGoverno img{
+        width: 15.0rem;
+    }
+    
+
+
+
+    .form{
+       
+        width: 50vw;
+        
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6.0rem;
+        
+    }
+    .login{
+        text-align: center;
+        font-size: 3.2rem;
+        margin: 2.4rem;
+        margin-top: 1.6rem;
+        margin-bottom: 2.0rem;
+    }
+    
+   
+    .inputs{
+
+    display: flex; 
+    flex-direction: column;
+    width: 30.0rem;
+
+    }
+    .inputs input{
+        height: 3.0rem;
+        width: 5.0rem;
+        width: 100%;
+        padding: 1.0rem;
+        border-radius: .5rem;
+        border: .1rem solid rgba(0, 0, 0, 0.445);
+    }
+
+    .botao button{
+        margin-top: 2.4rem;
+        width: 20.0rem;
+        height: 3.0rem;
+        background-color: #6696CF;
+        color: white;
+        border: none;
+        border-radius: .4rem;
+        cursor: pointer;
+    }
+    
+
+}
+
