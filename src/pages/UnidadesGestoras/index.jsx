@@ -3,6 +3,7 @@ import './style.css'
 import logoGoverno from '../../assets/cearasemfomelogo.png';
 import { Tabela } from '../../Components/Tabela';
 import { Tabs } from 'antd';
+import { Formulario } from '../../Components/Formulario';
 const { TabPane } = Tabs;
 
 
@@ -31,7 +32,9 @@ export function UnidadesGestoras() {
                     
                     </TabPane>
                     <TabPane tab="Detalhamento" key="2">
-                    Conteúdo da segunda aba
+                    
+                    <Formulario/>
+
                     </TabPane>
                    
                 </Tabs>

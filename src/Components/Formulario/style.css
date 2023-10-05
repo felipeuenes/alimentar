@@ -1,0 +1,21 @@
+.containerFormulario{
+    border: 0.03rem solid rgba(0, 0, 0, 0.493);
+    border-radius: .5rem;
+}
+
+.cabecalhoFormulario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.4rem;
+}
+
+.cabecalhoFormulario button{
+    width: 18.0rem;
+    height: 3.5rem;
+    background-color: #3A465C;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
