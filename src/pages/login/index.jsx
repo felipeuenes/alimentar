@@ -36,12 +36,14 @@ export function Login() {
                             </section>
                             <section className='help'>
                                 <section>
-                                     <input type="checkbox" id='relembrar'/> 
                                      <label htmlFor="relembrar">Relembrar</label>
+                                     <input type="checkbox" id='relembrar'/> 
                                 </section>
+                                <section>
                                 <a href=""> 
                                     <p>Esqueceu a senha?</p>
                                     </a>
+                                </section>
                             </section>
                         </form>
                     </section>
