@@ -95,16 +95,10 @@
     cursor: pointer;
 }
 
-
-.help{
-    width: 100%;
-    margin-top: 2.0rem;
+.help section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.4rem;
 }
-
 
 
     
@@ -134,9 +128,6 @@
         width: 15.0rem;
     }
     
-
-
-
     .form{
        
         width: 50vw;
