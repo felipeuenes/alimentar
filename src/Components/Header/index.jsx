@@ -12,7 +12,7 @@ export function Header(){
     return(
         <div className='cabecalho'>
             <section className='menu'>
-             <Link to={'/'}> <img src={logomarca} alt="logomarca" /></Link>  
+             <Link to={'/home'}> <img src={logomarca} alt="logomarca" /></Link>  
                 <ul>
                  <li><Link to='/unidadesGestoras'>Cadastro</Link></li>
                     <li>Lançamentos</li>
