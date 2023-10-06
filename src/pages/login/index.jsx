@@ -30,7 +30,7 @@ export function Login() {
                                 <input type="text" id='senha'/>
                             </section>
                             <section className='botao'>
-                                <Link to={'/'}>
+                                <Link to={'/home'}>
                                  <button>Entrar</button>
                                 </Link>
                             </section>
