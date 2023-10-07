@@ -42,11 +42,6 @@ export const FormLogin = styled.div`
     width: 35.0rem;
 }
 
-/* #email, #senha, label{
-    margin: 0 auto;
-    width: 35.0rem;
-    font-family: montserrat regular;
-} */
 
 label{
     font-size: 1.4rem;

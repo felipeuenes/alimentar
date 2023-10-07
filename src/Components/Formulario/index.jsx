@@ -1,3 +1,4 @@
+import { FormContainer } from './style';
 import './style.css';
 
 
@@ -5,6 +6,7 @@ export function Formulario() {
 
 
     return(
+        <FormContainer>
 
         <div className='containerFormulario'>
             <section className='cabecalhoFormulario'>
@@ -87,5 +89,6 @@ export function Formulario() {
             </div>
 
         </div>
+        </FormContainer>
     )
 }
