@@ -84,6 +84,10 @@
     font-family: montserrat regular;
 }
 
+label{
+    font-size: 1.4rem;
+}
+
 .btn{
     width: 100%;
     margin-top: -1.0rem;
