@@ -23,7 +23,7 @@
 
 .logos{
     height: 100%;
-    width: 45vw;
+    width: 60vw;
     background-color: #FBE721;
     padding-top: 5.0rem;
 }
@@ -34,148 +34,96 @@
     justify-content: center;
 }
 .logoAlimentar img{
-    width: 40.0rem;
+    width: 35.0rem;
 }
 
 .logoGoverno{
     padding-top: 2.4rem;
+    width: 100%;
 }
 
-.logoGoverno img{
+#logoGoverno{
     width: 35.0rem;
 }
 
 .form{
     height: 100%;
-    width: 50vw;
+    width: 40vw;
     background-color: white;
 }
 
 
-.login{
+.login h1{
     text-align: center;
     font-size: 3.2rem;
+    font-weight: 700;
     margin: 2.4rem;
     margin-top: 12.0rem;
     margin-bottom: 5.0rem;
 }
 
 .formulario{
+    width: 100%;
+    margin-top: 15.0rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6.0rem;
-}
-
-.inputs{
-
-    display: flex; 
     flex-direction: column;
-    width: 30.0rem;
+    gap: 2.3rem;
+}
 
-}
-.inputs label{
-    font-size: 1.4rem;
-}
-.inputs input{
+.formulario section input{
+    border: solid .05rem rgb(189, 189, 189);
+    border-radius: 0.5rem;
     height: 3.0rem;
     padding: 1.0rem;
-    border-radius: .5rem;
-    border: .1rem solid rgba(0, 0, 0, 0.445);
 }
 
-.botao button{
-    margin-top: 2.4rem;
+#email, #senha, label{
+    margin: 0 auto;
+    width: 35.0rem;
+}
+
+.btn{
     width: 100%;
-    height: 3.0rem;
+    margin-top: -1.0rem;
+}
+
+.btn button{
+    width: 35.0rem;
+    height: 3.3rem;
+    font-size: 1.4rem;
+    border: none;
     background-color: #6696CF;
     color: white;
-    border: none;
-    border-radius: .4rem;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
-.help section{
+.btn button:hover{
+    background-color: #557cac;
+}
+
+.ajuda{
+    width: 35.0rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    height: 3.0rem;
+}
 
-    
-@media screen and (max-width: 700px) {
-    .home-box{
-        flex-direction: column;
-        width: 100vw;
-        margin: 1.5rem;
-    }
-    .logoAlimentar img{
-        width: 15.0rem;
-    }
-    .logos{
-        height: 100%;
-        width: 100%;
-        background-color: #FBE721;
-        /* padding-top: 5.0rem; */
-        /* margin-top: 14.0rem; */
-        border-radius: 1.0rem;
-    }
-    .logoGoverno{
-        padding-top: 2.4rem;
-        padding-bottom: 2.4rem;
-    }
-    
-    .logoGoverno img{
-        width: 15.0rem;
-    }
-    
-    .form{
-       
-        width: 50vw;
-        
-    }
-    .formulario{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 6.0rem;
-        
-    }
-    .login{
-        text-align: center;
-        font-size: 3.2rem;
-        margin: 2.4rem;
-        margin-top: 1.6rem;
-        margin-bottom: 2.0rem;
-    }
-    
-   
-    .inputs{
-
-    display: flex; 
-    flex-direction: column;
-    width: 30.0rem;
-
-    }
-    .inputs input{
-        height: 3.0rem;
-        width: 5.0rem;
-        width: 100%;
-        padding: 1.0rem;
-        border-radius: .5rem;
-        border: .1rem solid rgba(0, 0, 0, 0.445);
-    }
-
-    .botao button{
-        margin-top: 2.4rem;
-        width: 20.0rem;
-        height: 3.0rem;
-        background-color: #6696CF;
-        color: white;
-        border: none;
-        border-radius: .4rem;
-        cursor: pointer;
-    }
-    
+#checkbox input{
+    width: 1.6rem;
 
 }
 
+#checkbox p{
+    margin: 0;
+}

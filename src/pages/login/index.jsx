@@ -11,42 +11,43 @@ export function Login() {
 
         <div className='home-fundo-geral'>
             <div className='home-box'>
-                <section className='logos'>
+                <div className='logos'>
                     <section className='logoAlimentar'><img src={logomarca} alt="" /></section>
-                    <section className='logoGoverno'><img src={logoGoverno} alt="" /></section>
-                </section>
-                <section className='form'>
-                    
+                    <section className='logoGoverno'><img src={logoGoverno} alt="logogoverno" id='logoGoverno'/></section>
+                </div>
+                <div className='form'>
+                    <form action="">
+
                     <section className='login'><h1>LOGIN</h1></section>
                          <hr></hr>
-                    <section className='formulario'>
-                        <form action="">
-                            <section className='inputs'>
-                                <label htmlFor="email">Email:</label>
-                                <input type="text" id='email'/>
+                    <div className='formulario'>
+                        <section>
+                            <label htmlFor="email">Email:</label>
+                            <input type="text" id='email'/>
+                        </section>
+                        <section>
+                            <label htmlFor="senha">Senha:</label>
+                            <input type="password" id='senha'/>
+                        </section>
+                    
+                        <div className='btn'>
+                                <button>Entrar</button>
+                        </div>
+                        <div className='ajuda'>
+                            
+                            <section id='checkbox'>
+                                <input type="checkbox" />
+                               <p>Relembrar</p>
                             </section>
-                            <section className='inputs'>
-                                <label htmlFor="senha">Senha:</label>
-                                <input type="text" id='senha'/>
+                            <section>
+                                <p>Esqueci a senha</p>
                             </section>
-                            <section className='botao'>
-                                <Link to={'/home'}>
-                                 <button>Entrar</button>
-                                </Link>
-                            </section>
-                            <section className='help'>
-                               <section>
-                                    <label htmlFor="relembrar">Relembrar:</label>
-                                    <input type="checkbox" id='relembrar'/>
-                               </section>
-                               <section>
-                                <p><a href="">Esqueceu a senha?</a></p>
-                               </section>
-                            </section>
-                        </form>
-                    </section>
 
-                </section>
+                        </div>
+                    
+                    </div>
+                    </form>
+                </div>
             </div>
 
         </div>
