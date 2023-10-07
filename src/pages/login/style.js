@@ -100,4 +100,8 @@ label{
     margin: 0;
 }
 
+label{
+    font-weight: 600;
+}
+
 `;
