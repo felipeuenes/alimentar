@@ -22,7 +22,7 @@ export function Login() {
                          <hr></hr>
                     <div className='formulario'>
                         <section>
-                            <label htmlFor="email">Email:</label>
+                            <label htmlFor="email">E-mail:</label>
                             <input type="text" id='email'/>
                         </section>
                         <section>
