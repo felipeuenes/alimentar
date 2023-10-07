@@ -31,7 +31,7 @@ export function Login() {
                         </section>
                     
                         <div className='btn'>
-                                <button>Entrar</button>
+                              <Link to={'/home'}>  <button>Entrar</button> </Link>
                         </div>
                         <div className='ajuda'>
                             
