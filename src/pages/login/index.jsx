@@ -2,6 +2,7 @@ import './style.css'
 import logomarca from '../../assets/logomarca.png';
 import logoGoverno from '../../assets/cearasemfomelogo.png'
 import { Link } from 'react-router-dom';
+import { FormLogin } from './style.js';
 
 
 export function Login() {
@@ -15,7 +16,9 @@ export function Login() {
                     <section className='logoAlimentar'><img src={logomarca} alt="" /></section>
                     <section className='logoGoverno'><img src={logoGoverno} alt="logogoverno" id='logoGoverno'/></section>
                 </div>
-                <div className='form'>
+                
+                    <FormLogin>
+
                     <form action="">
 
                     <section className='login'><h1>LOGIN</h1></section>
@@ -47,7 +50,8 @@ export function Login() {
                     
                     </div>
                     </form>
-                </div>
+                    </FormLogin>
+                
             </div>
 
         </div>

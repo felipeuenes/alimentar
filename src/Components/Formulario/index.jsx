@@ -12,7 +12,7 @@ export function Formulario() {
                 <button>Gerar PDF</button>
             </section>
             <hr />
-            <div className='formulario'>
+            <div className='formulario2'>
                 <section id='linha1'>
                     <label htmlFor="razao">Razão Social:</label>
                     <input type="text" id='razao'/>
