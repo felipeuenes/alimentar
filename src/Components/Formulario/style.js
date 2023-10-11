@@ -98,6 +98,7 @@ select{
 
 label{
     font-weight: 700;
+    margin: 0;
 }
 
 

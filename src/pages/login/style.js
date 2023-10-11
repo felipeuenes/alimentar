@@ -7,7 +7,7 @@ export const FormLogin = styled.div`
     width: 40vw;
 
     margin: 0 auto;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 .login h1{
     text-align: center;

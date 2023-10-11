@@ -7,6 +7,7 @@
     align-items: center;
     position: fixed;
     z-index: 5;
+  
 }
 .menu{
     display: flex;
@@ -24,7 +25,10 @@ ul{
     list-style: none;
     display: flex;
     gap: 4.0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
+
 
 .configs{
 
