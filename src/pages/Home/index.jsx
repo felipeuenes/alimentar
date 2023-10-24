@@ -1,14 +1,10 @@
-import { Header } from '../../Components/Header';
-import './style.css';
-
+import { Header } from "../../Components/Header";
+import "./style.css";
 
 export function Home() {
-
-
-    return(
-        <div className='homeFundoGeral'>
-            <Header/>
-            
-        </div>
-    )
+  return (
+    <div className="homeFundoGeral">
+      <Header />
+    </div>
+  );
 }

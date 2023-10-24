@@ -1,54 +1,52 @@
-.home-fundo-geral{
-    background-color: #6696CF;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.home-fundo-geral {
+  background-color: #6696cf;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.home-box{
-    background-color: rgb(255, 255, 255);
-    width: 90vw;
-    height: 90vh;
-    border-radius: 1.6rem;
-    margin: 4.0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
- 
-
-.logos{
-    height: 100%;
-    width: 60vw;
-    background-color: #FBE721;
-    padding-top: 5.0rem;
+.home-box {
+  background-color: rgb(255, 255, 255);
+  width: 90vw;
+  height: 90vh;
+  border-radius: 1.6rem;
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logoAlimentar, .logoGoverno{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logoAlimentar img{
-    width: 35.0rem;
+.logos {
+  height: 100%;
+  width: 60vw;
+  background-color: #fbe721;
+  padding-top: 5rem;
 }
 
-.logoGoverno{
-    padding-top: 2.4rem;
-    width: 100%;
+.logoAlimentar,
+.logoGoverno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoAlimentar img {
+  width: 35rem;
 }
 
-#logoGoverno{
-    width: 35.0rem;
+.logoGoverno {
+  padding-top: 2.4rem;
+  width: 100%;
 }
 
-.form{
-    height: 100%;
-    width: 40vw;
-    background-color: white;
+#logoGoverno {
+  width: 35rem;
 }
 
+.form {
+  height: 100%;
+  width: 40vw;
+  background-color: white;
+}
