@@ -54,6 +54,70 @@ export function Header() {
               </li>
             </ul>
           </div>
+{/*  02  */}
+          <div class="dropdown">
+            <a
+              class=" dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lançamentos
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <Link to="#" class="dropdown-item">
+                  Consumo diário de MP
+                </Link>
+              </li>
+              <li>
+                <Link to='#' class="dropdown-item">
+                  Refeições Ofertadas
+                </Link>
+                
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Diário de Bordo
+                </a>
+              </li>
+            </ul>
+          </div>
+
+{/* 03 */}
+
+<div class="dropdown">
+            <a
+              class=" dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Relatórios
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <Link to="#" class="dropdown-item">
+                  Dados do beneficiário
+                </Link>
+              </li>
+              <li>
+                <Link to='#' class="dropdown-item">
+                  Dados Estatísticos
+                </Link>
+                
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Acompanhamento
+                </a>
+              </li>
+            </ul>
+          </div>
         </NavBar>
       </section>
       <section className="configs">
