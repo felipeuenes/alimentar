@@ -4,6 +4,7 @@ import iconInfo from "../../assets/icon-info.png";
 import iconConfig from "../../assets/icon-config.png";
 import iconPerfil from "../../assets/icon-perfil.png";
 import { Link } from "react-router-dom";
+import { NavBar } from "./style";
 
 export function Header() {
   return (
@@ -13,16 +14,46 @@ export function Header() {
           {" "}
           <img src={logomarca} alt="logomarca" />
         </Link>
-        <ul>
+        {/* <ul>
           <li>
-            
             <Link to="/unidadesGestoras">Cadastro</Link>
           </li>
           <li>Lançamentos</li>
           <li>Relatórios</li>
-          
-        </ul>
-       
+        </ul> */}
+
+        
+        <NavBar>
+          <div class="dropdown">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Cadastro
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <Link to="/unidadesGestoras" class="dropdown-item">
+                  Unidade Gerenciadora
+                </Link>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  USPR
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Beneficiário
+                </a>
+              </li>
+            </ul>
+          </div>
+        </NavBar>
       </section>
       <section className="configs">
         <img src={iconInfo} alt="" />
