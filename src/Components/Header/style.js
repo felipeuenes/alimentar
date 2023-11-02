@@ -6,7 +6,8 @@ export const NavBar = styled.div`
 
 
 a{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    text-decoration: none;
 }
 
     

@@ -1,0 +1,80 @@
+.containerTabela{
+    border: 0.03rem solid rgba(0, 0, 0, 0.493);
+    border-radius: .5rem;
+}
+.cabecalhoTabela {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.4rem;
+}
+.containerTabela h3{
+    /* margin-top: 2.2rem;
+    margin-left: 2.4rem; */
+}
+
+
+.cabecalhoTabela section img{
+    width: 2.4rem;
+}
+
+#barra{
+    height: 3.0rem;
+    width: .2rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.tabela{
+    padding: 2.6rem;
+    padding-top: 1.6rem;
+}
+
+
+
+#add{
+    background-color: #9CCD5D;
+    color: white;
+    width: 22.0rem;
+    height: 3.0rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#pdf{
+    background-color: #3A465C;
+    color: white;
+    width: 22.0rem;
+    height: 3.0rem;
+    border: none;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#icons{
+    display: flex;
+    gap: 1.6rem;
+}
+/* #icons img{
+    width: 2.8rem;
+   
+} */
+
+
+#editar{
+    width: 1.6rem;
+    cursor: pointer;
+    
+}
+#lixeira{
+    width: 1.4rem;
+    cursor: pointer;
+}
+
+.linha1{
+    background-color: #CFE2F7;
+   
+   
+}

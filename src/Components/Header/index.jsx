@@ -26,7 +26,7 @@ export function Header() {
         <NavBar>
           <div class="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              class=" dropdown-toggle"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
@@ -42,9 +42,10 @@ export function Header() {
                 </Link>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <Link to='/uspr' class="dropdown-item">
                   USPR
-                </a>
+                </Link>
+                
               </li>
               <li>
                 <a class="dropdown-item" href="#">
