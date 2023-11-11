@@ -33,7 +33,7 @@
   justify-content: center;
 }
 .logoAlimentar img {
-  width: 35rem;
+  width: 35.0rem;
 }
 
 .logoGoverno {
@@ -42,11 +42,31 @@
 }
 
 #logoGoverno {
-  width: 35rem;
+  width: 35.0rem;
 }
 
 .form {
   height: 100%;
   width: 40vw;
   background-color: white;
+}
+
+
+@media screen and (max-width: 700px){
+    .home-box{
+       flex-direction: column;
+       
+    }
+
+    .logos{
+       width: 100%;
+    }
+
+    .logoAlimentar img {
+      width: 25.0rem;
+    }
+
+    #logoGoverno {
+      width: 25.0rem;
+    }
 }
