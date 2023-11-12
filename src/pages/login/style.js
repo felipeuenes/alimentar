@@ -7,6 +7,11 @@ export const FormLogin = styled.div`
   margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    
+  }
+
   .login h1 {
     text-align: center;
     font-size: 3.2rem;
@@ -15,7 +20,8 @@ export const FormLogin = styled.div`
     margin-top: 12rem;
     margin-bottom: 5rem;
   }
-
+  
+ 
   .formulario {
     width: 100%;
     margin-top: 5rem;
@@ -98,4 +104,27 @@ export const FormLogin = styled.div`
   label {
     font-weight: 600;
   }
+
+
+  @media screen {
+    .login h1{
+      margin-top: 1.6rem;
+      margin-bottom: 1.0rem;
+    }
+    .formulario{
+      margin-top: 0;
+      gap: 0.5rem;
+      
+    }
+    .formulario section input{
+      width: 75vw;
+    }
+    .btn button{
+      width: 75vw;
+      margin-top: 1.6rem;
+    }
+  }
+
 `;
+
+
