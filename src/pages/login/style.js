@@ -106,7 +106,7 @@ export const FormLogin = styled.div`
   }
 
 
-  @media screen {
+  @media screen and (max-width: 700px;){
     .login h1{
       margin-top: 1.6rem;
       margin-bottom: 1.0rem;
