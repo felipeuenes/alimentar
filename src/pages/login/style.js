@@ -106,10 +106,11 @@ export const FormLogin = styled.div`
   }
 
 
-  @media screen and (max-width: 700px;){
+  @media screen and (max-width: 700px){
     .login h1{
-      margin-top: 1.6rem;
-      margin-bottom: 1.0rem;
+      margin-top: 4.6rem;
+      margin-bottom: 2.6rem;
+      
     }
     .formulario{
       margin-top: 0;
