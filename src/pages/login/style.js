@@ -114,7 +114,7 @@ export const FormLogin = styled.div`
     }
     .formulario{
       margin-top: 0;
-      gap: 0.5rem;
+      gap: 1.8rem;
       
     }
     .formulario section input{
